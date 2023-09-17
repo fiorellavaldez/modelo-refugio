@@ -226,13 +226,6 @@ nav ul li a {
   
 
 
-
-
-
-
-
-
-
 .seg-contenedor{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -303,4 +296,61 @@ thead{
     background-color: #a0a0a3;
     color: white;
     text-align: center;
+}
+
+.cont-form-agregar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: fit-content;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.cont-form-agregar h5{
+    padding: 10px;
+    font-style: italic;
+}
+
+.cont-form-agregar button{
+    padding: 3px;
+    margin: 3px;
+}
+
+.ingreso-form-agregar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input-label input{
+    height: 20px;
+    padding-left: 5px;
+}
+
+.posi-input-label{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-buscar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.input-buscar svg{
+    height: 30px;
+}
+
+.input-buscar input{
+    padding-left: 5px;
 }
