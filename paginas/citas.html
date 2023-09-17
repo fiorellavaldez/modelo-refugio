@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Refugio</title>
+</head>
+<body>
+    <div class="main-window">
+        <header>
+            <div class="estructura-banner">
+                <div class="banner">
+                    <img src="../media/animal-shelter.png">
+                    <h1 class="titulo-header"> REFUGIO</h1>
+                </div>
+                <div>
+                    <p>Usuario: Jefe</p>
+                    <a href="../index.html">Cerrar sesion>></a>
+                </div>
+            </div>
+            <nav class="menu-jefe">
+                <ul>
+                    <li class="icon-tag">
+                        <img src="../media/icon-empleado.png" alt="icon-empleado">
+                        <a href="./empleados.html">Empleados</a>
+                    </li>
+                    <li class="icon-tag">
+                        <img src="../media/icon-animales.png" alt="icon-animales">
+                        <a href="./animales.html">Animales</a>
+                    </li>
+                    <li class="icon-tag">
+                        <img src="../media/icon-cliente.png" alt="icon-cliente">
+                        <a href="./clientes.html">Clientes</a>
+                    </li>
+                    <li class="icon-tag">
+                        <img src="../media/icon-citas.png" alt="icon-citas">
+                        <a href="./citas.html">Citas</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="barra-busqueda">
+            <input type="text" name="" id="" placeholder="Buscar cliente">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icono-busqueda">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <rect width="24" height="24" fill="none"></rect>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.25007 2.38782C8.54878 2.0992 10.1243 2 12 2C13.8757 2 15.4512 2.0992 16.7499 2.38782C18.06 2.67897 19.1488 3.176 19.9864 4.01358C20.824 4.85116 21.321 5.94002 21.6122 7.25007C21.9008 8.54878 22 10.1243 22 12C22 13.8757 21.9008 15.4512 21.6122 16.7499C21.321 18.06 20.824 19.1488 19.9864 19.9864C19.1488 20.824 18.06 21.321 16.7499 21.6122C15.4512 21.9008 13.8757 22 12 22C10.1243 22 8.54878 21.9008 7.25007 21.6122C5.94002 21.321 4.85116 20.824 4.01358 19.9864C3.176 19.1488 2.67897 18.06 2.38782 16.7499C2.0992 15.4512 2 13.8757 2 12C2 10.1243 2.0992 8.54878 2.38782 7.25007C2.67897 5.94002 3.176 4.85116 4.01358 4.01358C4.85116 3.176 5.94002 2.67897 7.25007 2.38782ZM9 11.5C9 10.1193 10.1193 9 11.5 9C12.8807 9 14 10.1193 14 11.5C14 12.8807 12.8807 14 11.5 14C10.1193 14 9 12.8807 9 11.5ZM11.5 7C9.01472 7 7 9.01472 7 11.5C7 13.9853 9.01472 16 11.5 16C12.3805 16 13.202 15.7471 13.8957 15.31L15.2929 16.7071C15.6834 17.0976 16.3166 17.0976 16.7071 16.7071C17.0976 16.3166 17.0976 15.6834 16.7071 15.2929L15.31 13.8957C15.7471 13.202 16 12.3805 16 11.5C16 9.01472 13.9853 7 11.5 7Z"
+                        fill="#6e5ff3"></path>
+                </g>
+            </svg>
+        </div>
+        <div class="opcion-filtro">
+            <div class="filtro">
+                <button class="filtro-btn">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M3 4.6C3 4.03995 3 3.75992 3.10899 3.54601C3.20487 3.35785 3.35785 3.20487 3.54601 3.10899C3.75992 3 4.03995 3 4.6 3H19.4C19.9601 3 20.2401 3 20.454 3.10899C20.6422 3.20487 20.7951 3.35785 20.891 3.54601C21 3.75992 21 4.03995 21 4.6V6.33726C21 6.58185 21 6.70414 20.9724 6.81923C20.9479 6.92127 20.9075 7.01881 20.8526 7.10828C20.7908 7.2092 20.7043 7.29568 20.5314 7.46863L14.4686 13.5314C14.2957 13.7043 14.2092 13.7908 14.1474 13.8917C14.0925 13.9812 14.0521 14.0787 14.0276 14.1808C14 14.2959 14 14.4182 14 14.6627V17L10 21V14.6627C10 14.4182 10 14.2959 9.97237 14.1808C9.94787 14.0787 9.90747 13.9812 9.85264 13.8917C9.7908 13.7908 9.70432 13.7043 9.53137 13.5314L3.46863 7.46863C3.29568 7.29568 3.2092 7.2092 3.14736 7.10828C3.09253 7.01881 3.05213 6.92127 3.02763 6.81923C3 6.70414 3 6.58185 3 6.33726V4.6Z"
+                                stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                    Filtrar
+                </button>
+                <ul class="opciones">
+                    <li><a href="#">Día</a></li>
+                    <li><a href="#">Mes</a></li>
+                    <li><a href="#">Año</a></li>
+                </ul>
+            </div>
+            <div class="seg-contenedor">
+                <div class="botones-tabla">
+                    <button type="button" class="icono-boton">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M20 18L17 18M17 18L14 18M17 18V15M17 18V21M11 21H4C4 17.134 7.13401 14 11 14C11.695 14 12.3663 14.1013 13 14.2899M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z"
+                                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                        Agendar cita
+                    </button>
+                    <button type="button" class="icono-boton">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M8.5 21H4C4 17.134 7.13401 14 11 14C11.1681 14 11.3348 14.0059 11.5 14.0176M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7ZM12.5898 21L14.6148 20.595C14.7914 20.5597 14.8797 20.542 14.962 20.5097C15.0351 20.4811 15.1045 20.4439 15.1689 20.399C15.2414 20.3484 15.3051 20.2848 15.4324 20.1574L19.5898 16C20.1421 15.4477 20.1421 14.5523 19.5898 14C19.0376 13.4477 18.1421 13.4477 17.5898 14L13.4324 18.1574C13.3051 18.2848 13.2414 18.3484 13.1908 18.421C13.1459 18.4853 13.1088 18.5548 13.0801 18.6279C13.0478 18.7102 13.0302 18.7985 12.9948 18.975L12.5898 21Z"
+                                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                        Modificar cita
+                    </button>
+                    <button type="button" class="icono-boton">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15 16L20 21M20 16L15 21M11 14C7.13401 14 4 17.134 4 21H11M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z"
+                                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                        Cancelar cita
+                    </button>
+                </div>
+                <div class="tabla-info">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Animal</th>
+                                <th>Adoptante</th>
+                                <th>Listo</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>28/09/2023</td>
+                            <td>10:30:00</td>
+                            <td>Buddy</td>
+                            <td>Alejandro</td>
+                            <td align="center" ><input type="checkbox" name="cita-realizada" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>05/11/2023</td>
+                            <td>11:00:00</td>
+                            <td>Poroto</td>
+                            <td>Laura</td>
+                            <td align="center" ><input type="checkbox" name="cita-realizada" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>19/10/2023</td>
+                            <td>12:30:00</td>
+                            <td>Luna</td>
+                            <td>Carlos</td>
+                            <td align="center" ><input type="checkbox" name="cita-realizada" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>14/09/2023</td>
+                            <td>15:00:00</td>
+                            <td>Max</td>
+                            <td>María</td>
+                            <td align="center" ><input type="checkbox" name="cita-realizada" id=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/filtro.js"></script>
+</body>
+</html>
